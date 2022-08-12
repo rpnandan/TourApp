@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_img6"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="@color/teal_700"
+    tools:context=".PriceRange">
+
+    <TextView
+        android:id="@+id/priceRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/price_range"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/k10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/under_10k"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceRange" />
+
+    <Button
+        android:id="@+id/k15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/under_15k"
+        app:layout_constraintEnd_toEndOf="@+id/k10"
+        app:layout_constraintStart_toStartOf="@+id/k10"
+        app:layout_constraintTop_toBottomOf="@+id/k10" />
+
+    <Button
+        android:id="@+id/k25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/under_25k"
+        app:layout_constraintEnd_toEndOf="@+id/k15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/k15"
+        app:layout_constraintTop_toBottomOf="@+id/k15" />
+
+    <Button
+        android:id="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/money_no_constraint"
+        app:layout_constraintEnd_toEndOf="@+id/k25"
+        app:layout_constraintStart_toStartOf="@+id/k25"
+        app:layout_constraintTop_toBottomOf="@+id/k25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

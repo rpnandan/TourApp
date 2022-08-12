@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355155863784",
+    "project_id": "tour-beta-1",
+    "storage_bucket": "tour-beta-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355155863784:android:3605e583fd0406ce4dc15d",
+        "android_client_info": {
+          "package_name": "com.example.tourbeta1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355155863784-01uel57o9rpj1h2hhtij039a11eknfnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDLK-nMpxzAHZM1k-EJt7BTQ70D3AYUR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355155863784-01uel57o9rpj1h2hhtij039a11eknfnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
